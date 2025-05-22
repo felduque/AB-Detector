@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <script src="https://cdn.jsdelivr.net/gh/felduque/adblock-detect@main/detector-ofu.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/felduque/AB-Detector@main/dk-scanner.js"></script>
   </head>
 <body>
     <div>
@@ -13,18 +13,18 @@
         <div id="adblock-status"></div>
     </div>
     <script>
-      // document.addEventListener('DOMContentLoaded', function() {
-      //   if (window.AdBlockDetector) {
-      //     window.AdBlockDetector.init({
-      //       blockLevel: "hard",
-      //       modalTitle: "¡Bloqueador de anuncios detectado!",
-      //       modalMessage: "Nuestro contenido es gratuito gracias a los anuncios. Por favor, considera desactivar tu bloqueador.",
-      //       modalImageAlt: "Imagen de advertencia",
-      //       debugger: true,
-      //       apiKey: "f892a9cf-d4c0-424f-a2cc-23eb31f7d246"
-      //     });
-      //   }
-      // });
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.AdBlockDetector) {
+          window.AdBlockDetector.init({
+            blockLevel: "hard",
+            modalTitle: "¡Bloqueador de anuncios detectado!",
+            modalMessage: "Nuestro contenido es gratuito gracias a los anuncios. Por favor, considera desactivar tu bloqueador.",
+            modalImageAlt: "Imagen de advertencia",
+            debugger: true,
+            apiKey: "f892a9cf-d4c0-424f-a2cc-23eb31f7d246"
+          });
+        }
+      });
     </script>
 </body>
 </html>
