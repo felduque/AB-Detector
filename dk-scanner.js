@@ -1,12 +1,12 @@
 /**
  * AD-DETECTOR V.0.1 Alpha
  *
- * Este script detecta la presencia de bloqueadores de anuncios utilizando
- * múltiples técnicas y muestra una advertencia personalizable al usuario.
- * Compatible con WordPress, Vue, React, NextJS y otras plataformas web.
- * Incluye detección específica para navegador Brave.
+ * This script detects the presence of ad blockers using multiple techniques and displays a customizable warning to the user.
+ * Multiple techniques and displays a customizable warning to the user.
+ * Compatible with WordPress, Vue, React, NextJS and other web platforms.
+ * Includes Brave browser specific detection.
  *
- * Requiere validación de API para su uso en producción.
+ * Requires API validation for production use.
  * 
  * Discord: https://discord.gg/RWaEaNw9yd
  *
