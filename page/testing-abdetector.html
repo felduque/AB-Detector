@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Detector</title>
+    <script src="https://cdn.jsdelivr.net/gh/felduque/AB-Detector@main/dk-scanner.js"></script>
+  </head>
+<body>
+    <div>
+        <h1>AdBlock Detector</h1>
+        <p>This is an example of how to use the AdBlock detector on your website</p>
+        <div id="adblock-status"></div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.AdBlockDetector) {
+          window.AdBlockDetector.init({
+            blockLevel: "hard",
+            modalTitle: "Ad Blocker Detected!",
+            modalMessage: "Our content is free thanks to ads. Please consider disabling your ad blocker.",
+            modalImageAlt: "Warning Image",
+            debugger: true,
+            apiKey: "f892a9cf-d4c0-424f-a2cc-23eb31f7d246"
+          });
+        }
+      });
+    </script>
+</body>
+</html>
