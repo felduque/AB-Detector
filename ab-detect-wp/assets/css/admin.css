@@ -1,0 +1,36 @@
+/**
+ * Estilos para el panel de administración
+ */
+.modal-settings-container {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.modal-preview-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.modal-preview h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.adblock-detector-help {
+    margin-top: 30px;
+    background: #e7f5ff;
+    padding: 15px;
+    border-left: 4px solid #0073aa;
+    border-radius: 3px;
+}
+
+.adblock-detector-help h2 {
+    margin-top: 0;
+}
